@@ -1,5 +1,7 @@
 <?php
 
+//Test comment
+
 
 $mageFilename = '../public_html/app/Mage.php';
 require_once $mageFilename;
