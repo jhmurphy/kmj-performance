@@ -1,6 +1,7 @@
 <?php
 
-//Test comment
+// alex
+
 
 
 $mageFilename = '../public_html/app/Mage.php';
