@@ -1,9 +1,5 @@
 <?php
 
-// alex
-
-
-
 $mageFilename = '../public_html/app/Mage.php';
 require_once $mageFilename;
 Mage::setIsDeveloperMode(true);
@@ -103,9 +99,9 @@ array_shift($data);
 // added EIB to drop ship list 5-3-17
 // added SWE to drop ship list 5-11-17
 // added MSD to drop ship list 5-16-17
-// test test
+// removed PRB from drop ship list 5-31-17
 /**********Array of PLCs that are drop shipped to check against**********/
-$plc_array = array("ACC", "ACL", "AES", "ALL", "ARA", "ARC", "ARP", "ATC", "AVS", "BLM", "BMM", "BRG", "BRU", "CGT", "DGH", "DHA", "DUR", "EDG", "EIB", "ELG", "FEL", "FIT", "FLO", "FMP", "FRA", "GFS", "GFU", "GRF", "HAS", "HOW", "HSK", "HUR", "HYT", "JBA", "JET", "KEV", "KMJ", "KNN", "KRC", "LND", "MDN", "MEL", "MIC", "MOT", "MSD", "NOR", "PAC", "PEP", "PNR", "PPG", "PRB", "PRP", "PRW", "PTX", "PWM", "QTI", "QUI", "RAC", "RDL", "RHS", "RNL", "ROF", "SAG", "SCA", "SCT", "STA", "SWE", "TIM", "TRX", "ULT", "WIS");
+$plc_array = array("ACC", "ACL", "AES", "ALL", "ARA", "ARC", "ARP", "ATC", "AVS", "BLM", "BMM", "BRG", "BRU", "CGT", "DGH", "DHA", "DUR", "EDG", "EIB", "ELG", "FEL", "FIT", "FLO", "FMP", "FRA", "GFS", "GFU", "GRF", "HAS", "HOW", "HSK", "HUR", "HYT", "JBA", "JET", "KEV", "KMJ", "KNN", "KRC", "LND", "MDN", "MEL", "MIC", "MOT", "MSD", "NOR", "PAC", "PEP", "PNR", "PPG", "PRP", "PRW", "PTX", "PWM", "QTI", "QUI", "RAC", "RDL", "RHS", "RNL", "ROF", "SAG", "SCA", "SCT", "STA", "SWE", "TIM", "TRX", "ULT", "WIS");
 echo 'Created Array' . "\r\n";
 
 $notUpdated_array = array();
